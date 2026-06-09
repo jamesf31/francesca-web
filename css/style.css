@@ -35,10 +35,10 @@ img {
 }
 
 .header-logo {
+  float: right;
+  height: 50px;
 
-  height: 60px;
-
-  width: 120px;
+  width: auto;
 }
 
 /* Chrome / Safari */
