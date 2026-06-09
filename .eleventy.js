@@ -21,6 +21,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("projects");
   eleventyConfig.addPassthroughCopy("writing");
+  eleventyConfig.addPassthroughCopy("Logo.png");
 
   eleventyConfig.addCollection("projects", function(collectionApi) {
     return collectionApi.getFilteredByGlob("projects/**/index.md");
