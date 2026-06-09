@@ -56,7 +56,7 @@ module.exports = function(eleventyConfig) {
     });
 
     return {
-      pathPrefix: "/Ambert/"
+      pathPrefix: "/francesca-web/"
     };
 
 };
