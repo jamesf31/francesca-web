@@ -21,14 +21,24 @@ img {
   display: block;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 12px;
-  z-index: 100;
-  background: white;
-  width: 100vw;
+.site-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  width: 100%;
+
+  padding: 20px 24px;
+}
+
+.header-logo {
+
+  width: 120px;
+
+  height: auto;
 }
 
 /* Chrome / Safari */
