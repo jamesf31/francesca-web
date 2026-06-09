@@ -31,12 +31,12 @@ img {
 
   width: 100%;
 
-  padding: 20px 24px;
+  padding: 12px;
 }
 
 .header-logo {
   float: right;
-  height: 50px;
+  height: 100px;
 
   width: auto;
 }
