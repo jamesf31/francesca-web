@@ -20,7 +20,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("projects");
-  eleventyConfig.addPassthroughCopy("writing");
+  eleventyConfig.addPassthroughCopy("portfolio");
   eleventyConfig.addPassthroughCopy("Logo.png");
 
   eleventyConfig.addCollection("projects", function(collectionApi) {
