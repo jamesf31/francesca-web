@@ -32,6 +32,7 @@ img {
   align-items: flex-start;
   width: 100%;
   padding: 12px;
+  padding-bottom:0px;
 }
 
 .header-logo {
@@ -116,13 +117,13 @@ body {
 
   position: fixed;
 
-  top: 0;
-  right: 0;
+  left: 28vw;
+  top: 60px;
 
   width: 72vw;
   height: 100vh;
 
-  padding: 60px;
+  padding: 12px;
 
 }
 
