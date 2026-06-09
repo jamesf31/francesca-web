@@ -128,18 +128,27 @@ body {
 }
 
 .scrollable-preview-area {
-
-
-
   top: 0;
   right: 0;
 
   width: 72vw;
   height: 100vh;
 
-  padding: 60px;
+  padding: 12px;
 
 }
+
+.scrollable-preview-area img {
+
+  width: auto;
+
+  height: auto;
+
+  max-width: 70vw;
+
+  max-height: 70vh;
+}
+
 
 .preview-group {
 
