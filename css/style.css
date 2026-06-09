@@ -144,7 +144,7 @@ body {
 
   position: absolute;
 
-  inset: 60px;
+  inset: 20px;
 
   opacity: 0;
 
@@ -157,7 +157,7 @@ body {
 
   align-items: flex-start;
 
-  gap: 120px 60px;
+  gap: 60px 40px;
 
   padding-top: 20px;
 }
