@@ -22,18 +22,15 @@ img {
 }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1000;
 
   display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-
   justify-content: space-between;
-
   align-items: flex-start;
-
   width: 100%;
-
   padding: 12px;
 }
 
