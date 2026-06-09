@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ambert</title>
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+</head>
+
+
+<body>
+
+<header>
+
+  <b>
+    <a href="{{ '/' | url }}">
+      Ambert Through My Eyes
+    </a>
+  </b>
+
+  <br>
+
+  <a href="{{ '/writing/' | url }}">
+    Writing
+  </a>
+
+</header>
+
+  {{ content | safe }}
+
+  <script src="{{ '/js/preview.js' | url }}"></script>
+
+  
+
+</body>
+
+</html>

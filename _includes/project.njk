@@ -1,0 +1,41 @@
+---
+layout: layout.njk
+---
+
+<div class="site">
+
+  <aside class="sidebar">
+
+  <main class="project-page">
+
+
+    <div class="project-text">
+      {{ content | safe }}
+    </div>
+
+  </aside>
+
+    <div class="project-images">
+
+        <img
+            src="cover.jpg"
+            alt=""
+        >
+
+        {% for image in page.inputPath | previewImages %}
+
+          <img src="{{ image | url }}">
+
+        {% endfor %}
+
+      {% for image in page.inputPath | fullImages %}
+
+        <img src="{{ image | url }}" alt="">
+
+      {% endfor %}
+
+    </div>
+
+  </main>
+
+</div>

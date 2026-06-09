@@ -1,0 +1,47 @@
+---
+layout: layout.njk
+title: Home
+---
+
+<div class="site">
+
+  <aside class="sidebar">
+
+    {% for project in collections.projects %}
+
+      <a
+        class="project-link"
+        href="{{ project.url | url }}"
+        data-index="{{ loop.index0 }}"
+      >
+
+        <img
+            src="{{ project.inputPath | coverImage | url }}"
+            alt="{{ project.data.title }}"
+        >
+
+      </a>
+
+    {% endfor %}
+
+  </aside>
+
+  <main class="preview-area">
+  
+    {% for project in collections.projects %}
+
+      <div class="preview-group {% if loop.first %}active{% endif %}">
+
+        {% for image in project.inputPath | previewImages %}
+
+          <img src="{{ image | url }}">
+
+        {% endfor %}
+
+      </div>
+
+    {% endfor %}
+
+  </main>
+
+</div>

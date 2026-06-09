@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgb(40, 40, 40);
+  background: hsla(0, 0%, 100%, 0.814);
+}
+
+a {
+  color: rgb(40, 40, 40);
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 12px;
+  z-index: 100;
+  background: white;
+  width: 100vw;
+}
+
+/* Chrome / Safari */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* IE/Edge */
+body {
+  -ms-overflow-style: none;
+}
+
+/* ---------- MAIN LAYOUT ---------- */
+
+.site {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* ---------- SIDEBAR ---------- */
+
+.sidebar {
+
+  top: 0;
+  left: 0;
+
+  width: 28vw;
+
+  min-width: 240px;
+
+  padding: 12px;
+  padding-top: 80px;
+
+  overflow-y: scroll;
+
+}
+
+.sidebar img {
+  width:100%;
+  height: auto;
+  margin-bottom: 56px;
+}
+
+.sidebar::after {
+  content: "";
+
+  display: block;
+
+  height: 80vh;
+}
+
+.project-link {
+  display: block;
+
+  margin-bottom: 48px;
+}
+
+.project-link img {
+  width: 100%;
+
+  margin-bottom: 8px;
+}
+
+.project-link span {
+  font-size: 13px;
+}
+
+/* ---------- PREVIEW AREA ---------- */
+
+.preview-area {
+
+  position: fixed;
+
+  top: 0;
+  right: 0;
+
+  width: 72vw;
+  height: 100vh;
+
+  padding: 60px;
+
+}
+
+.scrollable-preview-area {
+
+
+
+  top: 0;
+  right: 0;
+
+  width: 72vw;
+  height: 100vh;
+
+  padding: 60px;
+
+}
+
+.preview-group {
+
+  position: absolute;
+
+  inset: 60px;
+
+  opacity: 0;
+
+  transition: opacity 0.1s ease;
+
+  pointer-events: none;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: flex-start;
+
+  gap: 120px 60px;
+
+  padding-top: 20px;
+}
+
+.preview-group.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.preview-group img {
+
+  width: auto;
+
+  height: auto;
+
+  max-width: 28vw;
+
+  max-height: 70vh;
+}
+
+/* ---------- PROJECT PAGE ---------- */
+
+
+.project-text {
+    padding-top: 20px;
+
+}
+
+.project-images {
+
+  width: 72vw;
+
+  padding: 60px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 60px 40px;
+
+  align-items: flex-start;
+}
+
+.project-page::after {
+  content: "";
+
+  display: block;
+
+  height: 80vh;
+}
+
+.project-images img {
+
+
+  width: auto;
+
+  height: auto;
+
+  max-width: 28vw;
+
+  max-height: 70vh;
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 900px) {
+
+  .site {
+    display: block;
+  }
+
+  .sidebar {
+
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    border-right: none;
+
+    border-bottom: 1px solid #eee;
+  }
+
+  .preview-area,
+  .project-page {
+
+    margin-left: 0;
+
+    width: 100%;
+
+    padding: 24px;
+  }
+
+  .preview-group {
+
+    position: relative;
+
+    inset: auto;
+
+    opacity: 1;
+
+    pointer-events: auto;
+
+    display: none;
+  }
+
+  .preview-group.active {
+    display: flex;
+  }
+
+  .preview-group img,
+  .project-images img {
+
+    max-width: 100%;
+  }
+
+}
