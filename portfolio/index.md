@@ -17,6 +17,7 @@ title: Portfolio and CV
     <img src = "08.jpg">
     <img src = "09.jpg">
     <img src = "10.jpg">
+    <img src = "cv.jpg">
 
 </main>
 </div>

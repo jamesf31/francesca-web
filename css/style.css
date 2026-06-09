@@ -135,18 +135,15 @@ body {
   height: 100vh;
 
   padding: 12px;
+  padding-right:60px;
 
 }
 
 .scrollable-preview-area img {
 
-  width: auto;
+  width: 60vw;
 
   height: auto;
-
-  max-width: 70vw;
-
-  max-height: 70vh;
 }
 
 
