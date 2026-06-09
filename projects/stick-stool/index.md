@@ -1,6 +1,7 @@
 ---
 layout: project.njk
 title: Stick Stool
+order: 9
 ---
 
 <b>Stick Stool, 2026</b>

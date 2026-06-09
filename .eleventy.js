@@ -24,7 +24,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("Logo.png");
 
   eleventyConfig.addCollection("projects", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("projects/**/index.md");
+
+    return collectionApi
+      .getFilteredByGlob("projects/**/index.md")
+      .sort((a, b) => b.data.order - a.data.order);
+
   });
 
   eleventyConfig.addFilter("coverImage", function(inputPath) {

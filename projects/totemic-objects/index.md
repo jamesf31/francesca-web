@@ -1,6 +1,7 @@
 ---
 layout: project.njk
 title: A Series of Totemic Objects
+order: 10
 ---
 
 <b>A Series of Totemic Objects, 2026</b>
