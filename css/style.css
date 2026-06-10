@@ -154,7 +154,7 @@ body {
 
 .scrollable-preview-area img {
 
-  width: 100%;
+  width: 60%;
 
   height: auto;
 }
@@ -310,6 +310,13 @@ body {
   .project-images img {
 
     max-width: 100%;
+  }
+
+  .scrollable-preview-area img {
+
+    width: 100%;
+
+    height: auto;
   }
 
 }
