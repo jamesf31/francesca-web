@@ -220,13 +220,6 @@ body {
   align-items: flex-start;
 }
 
-.project-page::after {
-  content: "";
-
-  display: block;
-
-  height: 80vh;
-}
 
 .project-images img {
 
