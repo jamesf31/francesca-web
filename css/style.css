@@ -241,7 +241,10 @@ body {
     display: block;
   }
 
-  .project-title,
+  .project-title {
+    display: none;
+  }
+  
   .project-link span {
 
     font-size: 18px;
@@ -267,6 +270,10 @@ body {
 
     left: auto;
     top: auto;
+  }
+
+  .header-logo {
+    height: 82px;
   }
 
   .project-page {

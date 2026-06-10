@@ -16,7 +16,7 @@ title: Portfolio and CV
             alt="Portfolio"
         >
 
-        <span>Portfolio</span>
+        <span><b>Portfolio</b></span>
 
     </a>
 
@@ -31,7 +31,7 @@ title: Portfolio and CV
             alt="CV"
         >
 
-        <span>CV</span>
+        <span><b>CV</b></span>
 
     </a>
 
