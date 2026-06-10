@@ -6,7 +6,6 @@ body {
   margin: 0;
 
   font-family: Helvetica, sans-serif;
-  font-family: Helvetica, sans-serif;
   text-decoration: none;
   color: rgb(12, 55, 225);
   background: hsla(0, 0%, 100%, 0.814);
@@ -14,6 +13,7 @@ body {
 
 a {
   color: rgb(12, 55, 225);
+  font-family: Helvetica, sans-serif;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ img {
 
 .header-logo {
   float: right;
-  height: 72px;
+  height: 76px;
 
   width: auto;
 }
@@ -115,14 +115,16 @@ body {
 
   position: fixed;
 
-  top: 120px;
-  left: 30px;
+  top: 150px;
+  left: 12px;
 
   opacity: 0;
 
   pointer-events: none;
 
   transition: opacity .1s ease;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
   color: rgb(255,255,255);
 }
 
@@ -248,7 +250,7 @@ body {
 
 /* ---------- MOBILE ---------- */
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
 
   .site {
     display: block;
@@ -274,11 +276,6 @@ body {
   }
 
   .sidebar {
-    width: 100%;
-  }
-
-  .sidebar-inner {
-
     position: relative;
 
     width: 100%;
