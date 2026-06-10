@@ -87,14 +87,6 @@ body {
   margin-bottom: 56px;
 }
 
-.sidebar::after {
-  content: "";
-
-  display: block;
-
-  height: 80vh;
-}
-
 .project-link {
   display: block;
 
@@ -218,12 +210,12 @@ body {
 
   width: 72vw;
 
-  padding: 60px;
+  padding: 12px;
 
   display: flex;
   flex-wrap: wrap;
 
-  gap: 60px 40px;
+  gap: 40px 20px;
 
   align-items: flex-start;
 }
@@ -308,6 +300,10 @@ body {
 
   .preview-group.active {
     display: flex;
+  }
+
+  .project-images {
+    width:100%;
   }
 
   .preview-group img,
