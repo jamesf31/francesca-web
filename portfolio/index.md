@@ -5,17 +5,35 @@ title: Portfolio and CV
 <div class = "site">
 <main class="scrollable-preview-area">
 
-    <img src = "01.jpg">
-    <img src = "02.jpg">
-    <img src = "03.jpg">
-    <img src = "04.jpg">
-    <img src = "05.jpg">
-    <img src = "06.jpg">
-    <img src = "07.jpg">
-    <img src = "08.jpg">
-    <img src = "09.jpg">
-    <img src = "10.jpg">
-    <img src = "cv.jpg">
+<a
+    class="document-link"
+    href="Francesca Reynolds Portfolio.pdf"
+    target="_blank"
+  >
+
+    <img
+      src="01.jpg"
+      alt="Portfolio"
+    >
+
+    <span>Portfolio</span>
+
+  </a>
+
+  <a
+    class="document-link"
+    href="Francesca Reynolds CV.pdf"
+    target="_blank"
+  >
+
+    <img
+      src="cv.jpg"
+      alt="CV"
+    >
+
+    <span>CV</span>
+
+  </a>
 
 </main>
 </div>
