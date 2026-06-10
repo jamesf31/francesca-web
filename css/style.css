@@ -37,7 +37,7 @@ img {
 
 .header-logo {
   float: right;
-  height: 80px;
+  height: 72px;
 
   width: auto;
 }
@@ -115,8 +115,8 @@ body {
 
   position: fixed;
 
-  top: 60px;
-  left: 220px;
+  top: 120px;
+  left: 30px;
 
   opacity: 0;
 
@@ -254,19 +254,39 @@ body {
     display: block;
   }
 
+  .project-title,
+  .project-link span {
+
+    font-size: 18px;
+
+    line-height: 1.4;
+  }
+
+  .project-link img {
+
+    width: 100%;
+
+    max-width: none;
+  }
+
+  .preview-area {
+    display: none;
+  }
+
   .sidebar {
+    width: 100%;
+  }
+
+  .sidebar-inner {
 
     position: relative;
 
     width: 100%;
-    height: auto;
 
-    border-right: none;
-
-    border-bottom: 1px solid #eee;
+    left: auto;
+    top: auto;
   }
 
-  .preview-area,
   .project-page {
 
     margin-left: 0;
