@@ -3,11 +3,11 @@ layout: layout.njk
 title: Contact
 ---
 <div class = "site">
-<aside class = "sidebar">
-</aside>
 <main class="scrollable-preview-area">
 
-Find Francesca at:
+
+
+<b>Find Francesca at:</b>
 <br><br>
 Email: Francescareynolds1@yahoo.co.uk 
 <br>

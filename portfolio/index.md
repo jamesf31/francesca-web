@@ -3,8 +3,6 @@ layout: layout.njk
 title: Portfolio and CV
 ---
 <div class = "site">
-<aside class = "sidebar">
-</aside>
 <main class="scrollable-preview-area">
 
     <img src = "01.jpg">

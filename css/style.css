@@ -37,7 +37,7 @@ img {
 
 .header-logo {
   float: right;
-  height: 100px;
+  height: 80px;
 
   width: auto;
 }
@@ -111,6 +111,26 @@ body {
   font-size: 13px;
 }
 
+.project-title {
+
+  position: fixed;
+
+  top: 60px;
+  left: 220px;
+
+  opacity: 0;
+
+  pointer-events: none;
+
+  transition: opacity .1s ease;
+  color: rgb(255,255,255);
+}
+
+.project-link:hover .project-title {
+
+  opacity: 1;
+}
+
 /* ---------- PREVIEW AREA ---------- */
 
 .preview-area {
@@ -131,11 +151,10 @@ body {
   top: 0;
   right: 0;
 
-  width: 72vw;
+  width: 100vw;
   height: 100vh;
 
   padding: 12px;
-  padding-right:60px;
 
 }
 

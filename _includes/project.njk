@@ -22,17 +22,17 @@ layout: layout.njk
             alt=""
         >
 
-        {% for image in page.inputPath | previewImages %}
-
-          <img src="{{ image | url }}">
-
-        {% endfor %}
-
       {% for image in page.inputPath | fullImages %}
 
         <img src="{{ image | url }}" alt="">
 
       {% endfor %}
+
+      {% for image in page.inputPath | previewImages %}
+
+          <img src="{{ image | url }}">
+
+        {% endfor %}
 
     </div>
 

@@ -3,9 +3,9 @@ layout: layout.njk
 title: About
 ---
 <div class = "site">
-<aside class = "sidebar">
-</aside>
 <main class="scrollable-preview-area">
+
+
 
     Francesca is a multidisciplinary maker using found and local materials as central to form, concept and scale.
     <br>
